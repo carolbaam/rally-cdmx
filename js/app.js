@@ -10,10 +10,12 @@ function loadPage() {
   $('.tap-target').tapTarget('open');
   $('.tap-target').tapTarget('close');
   $('.parallax').parallax();
-  $("#form").submit(addComment);
-  $commentInput.keyup(validateComment);
+  //$("#form").submit(paintComments);
+ // $commentInput.keyup(validateComment);
   $(".contador").text("Puntos: " + points);
   $("#count_click").click(count_click_add);
+  $("#env-msg").click(paintComments);
+
 }
 
 //AÑADE UN CLICK AL EJECUTAR LA FUNCIÓN
@@ -37,7 +39,7 @@ function validateComment () {
     $containerAddComment.attr("disabled", true);
   }
 }
-
+/*
 function addComment(e) {
   e.preventDefault();
   // Con estas lineas toman el valor del usuario agrega los inputs y los guarda en variables
@@ -55,24 +57,27 @@ function addComment(e) {
 
   // limpiando valores del form
   $commentInput.val(" ");
-}
+}*/
 
-function paintCommentsInHtml (comment) {
+function paintComments () {
   // crear elementos con DOM
   var $newComment = $("<div />", {
-    "class": "card-panel hoverable"
+   
   });
-  var $containerComment = $("<p />");
+  var $containerComment = $("<div />");
+  var $content=$("#texto").val();
+
 
   // Asignando valores
-  $containerComment.text(comment.newComment);
+  $containerComment.html($content);
   $newComment.append($containerComment);
 
-   console.log($newComment);
+  
   // agregamos lo que creamos con el Dom a un elemento existente del html
 
 
-  $("#publish-comments").prepend($newComment);
+  $(".container-new-msg").prepend($newComment);
+  $("#texto").val(" ");
 
 }
 

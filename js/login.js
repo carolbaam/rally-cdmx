@@ -73,7 +73,7 @@
     storageBucket: "rally-cdmx-1518060815650.appspot.com",
     messagingSenderId: "249282693693"
   };
-  firebase.initializeApp(config); 
+  firebase.initializeApp(config);
   $("#buttonGoogle").click(function(e){
     e.preventDefault();
     authGoogle();
@@ -90,9 +90,12 @@
       var token = result.credential.accessToken;
       // The signed-in user info.
       var user = result.user;
-      window.location.href='../views/home.html'
+      
       console.log(result);
-    }).catch(function(error) {
+      console.log("entròs")
+      window.location.href='../views/home.html'
+    }).catch(function(error)
+     {
       
       var errorCode = error.code;
       console.log(error);
