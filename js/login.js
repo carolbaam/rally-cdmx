@@ -92,8 +92,7 @@
       var user = result.user;
       
       console.log(result);
-      console.log("entròs")
-      window.location.href='../views/home.html'
+      window.location.href='./views/home.html'
     }).catch(function(error)
      {
       
