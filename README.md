@@ -2,7 +2,7 @@
 
 App que permite que el usuario recorra la ciudad de México  de manera divertida, conociendo puntos imperdibles de cada colonia por medio de rutas preestablecidas, utilizando una modalidad de juego.
 
-![login](https://raw.githubusercontent.com/PaulinaVPG/rally-cdmx/master/assets/images/rally-home.png)
+![log](assets/images/rally-home1-png)
 
 ## Requerimientos
 
@@ -10,6 +10,8 @@ App que permite que el usuario recorra la ciudad de México  de manera divertida
 * Establecer rutas interesantes y fáciles de seguir.
 * Acceder a la data necesaria para realizar la geolocalización.
 * Ser mobile friendly
+
+![login](https://raw.githubusercontent.com/PaulinaVPG/rally-cdmx/master/assets/images/rally-home.png)
 
 ## Proceso de selección del producto
 
