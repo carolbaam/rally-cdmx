@@ -1,17 +1,8 @@
 # Rally CDMX
 
-## Squad
-Equipo de trabajo conformado por:
+App que permite que el usuario recorra la ciudad de México  de manera divertida, conociendo puntos imperdibles de cada colonia por medio de rutas preestablecidas, utilizando una modalidad de juego.
 
-* Carolina Barrios
-* Tania Herrera
-* Dení Morales
-* Paulina Vargas
-
-
-## Objetivo
-
-Crear una web app que permite que el usuario recorra la ciudad de México  de manera divertida, conociendo puntos imperdibles de cada colonia por medio de rutas preestablecidas, con la modalidad de juego el cuál
+![login](assets/images/rally-home.png)
 
 ## Requerimientos
 
@@ -49,7 +40,6 @@ Corredor Roma-Condesa ccromacondesa.mx
 7. Determinar las problemátcas de funcionalidad, sólo frontend
 8. Armar una solución al problema
 
-
 **Dia 2:**
 
 ÁREA UX
@@ -72,12 +62,3 @@ Corredor Roma-Condesa ccromacondesa.mx
 1. Detalles de funcionalidad y maquetación
 2. GitHub colaborativo
 
-## Definición del diseño
-
-Nombre: Rally CDMEX aún por confirmar
-Isotipo: en contrucción
-Paleta de colores: en construcción
-Arquitectura de información (sketching)
-![login](assets/images/sketch1.jpg)
-![perfil](assets/images/sketch2.jpg)
-![inicio](assets/images/sketch3.jpg)
