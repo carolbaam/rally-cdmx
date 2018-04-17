@@ -2,7 +2,7 @@
 
 App que permite que el usuario recorra la ciudad de México  de manera divertida, conociendo puntos imperdibles de cada colonia por medio de rutas preestablecidas, utilizando una modalidad de juego.
 
-![log](assets/images/rally-home1-png)
+![log](assets/images/rally-home1.png)
 
 ## Requerimientos
 
